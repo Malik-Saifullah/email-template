@@ -1,0 +1,25 @@
+@media(max-width:500px) {
+    div.container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    #card {
+        display: block !important;
+    }
+
+    .card,
+    .img-fluid img,
+    #about .description,
+    #feeds .description,
+    #story .description,
+    #story .img-fluid {
+        padding: 0 !important;
+    }
+
+    #about,
+    #feeds,
+    #story {
+        display: block !important;
+    }
+}
